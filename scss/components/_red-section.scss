@@ -1,0 +1,93 @@
+.red-section {
+    
+    height: 500px;
+    flex-shrink: 0;
+    
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.80) 0%, rgba(238, 61, 27, 0.80) 100%);
+    
+        @include mobile{
+            margin-top: 550px;
+            display: flex;
+            flex-direction: column-reverse;
+            height: 740px;
+        }
+
+    
+    &__text {
+        display: flex;
+        flex-direction: column;
+        
+        @include mobile{
+            margin-bottom: 60px;
+            
+        }
+        
+        
+    }
+
+    &__title {
+        padding-top: 125px;
+        color: #FFF;
+        max-width: 445px;
+        font-size: 36px;
+
+        font-weight: 600;
+        margin-bottom: 24px;
+
+    }
+
+    &__desc {
+        color: #FFF;
+        text-align: justify;
+       max-width: 445px;
+        font-size: 14px;
+        
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 40px;
+    }
+
+    &__apps {
+        display: flex;
+        
+        gap: 23px;
+    }
+
+    &__btn {
+    }
+
+    &__img {
+       
+       
+        
+
+        
+              
+        
+       
+        
+    }
+}
+
+.team-img {
+    
+   
+
+    
+}
+
+
+.proba-box{
+    display: flex;
+    justify-content: space-around;
+     
+    @include mobile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    @include tablet{
+        
+
+    }
+    
+}

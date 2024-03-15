@@ -1,0 +1,128 @@
+.features-section {
+    
+    @include mobile{
+        margin-top: 0;
+        
+        margin-bottom: 60px;
+       
+        
+
+    }
+    
+
+    &__title {
+        color: #000;
+        text-align: center;
+        
+        font-size: 36px;
+        
+        font-weight: 600;
+        margin-bottom: 63px;
+    }
+}
+.container {
+}
+.features-list {
+    display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(255px,1fr));
+	gap: 60px;
+    
+    align-items: center;
+    justify-content: center;
+    @include mobile{
+       
+       
+       
+        
+
+    }
+    
+}
+.features-item {
+    display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(255px,1fr));
+	gap: 30px;
+    position: relative;
+    @include mobile{
+            
+        margin-bottom: 100px;
+            
+            
+            
+            
+    }
+    
+
+    &__counter {
+        
+        
+    }
+
+    &__title {
+        margin-top: 33px;
+        color: #101010;
+        text-align: center;
+
+        font-size: 18px;
+
+        font-weight: 700;
+        
+        
+        
+    }
+
+    &__title-clock{
+        max-width: 230px;
+        color: #101010;
+text-align: center;
+margin-left: 32px;
+font-size: 18px;
+
+font-weight: 700;
+
+margin-top: 33px;
+    }
+
+    &__desc {
+        margin-top: 20px;
+        color: #101010;
+        text-align: center;
+        
+        font-size: 12px;
+        
+        font-weight: 400;
+        line-height: 150%; 
+        max-width: 230px;
+        margin-left: 32px;
+    }
+
+    &__btn {
+        color: #ED4C5C;
+        text-align: center;
+        
+        font-size: 12px;
+
+        font-weight: 700;
+        line-height: 150%;
+        margin: 20px;
+       margin-top: 30px;
+        margin-left: 120px;
+            
+    }
+
+    &__background {
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
+        width: 293px;
+        height: 198px;
+        position: absolute;
+        top: 157px;
+        left: 20px;
+    }
+}
+
+.features-img{
+    width: 350px;
+    height: 250px;
+}

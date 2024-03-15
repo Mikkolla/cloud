@@ -1,0 +1,181 @@
+.footer {
+    
+    
+    
+    
+    @include mobile{
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    background:#E7CF81;
+    &__wrapper {
+        
+        
+        height: 400px;
+        
+        padding-top: 85px;
+        display: flex;
+        gap: 100px;
+        
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            height: 650px;
+           
+            
+        }
+        
+
+    }
+
+    &__adress-box {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+       
+    }
+
+    &__adress-title {
+        color: #101010;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+@include mobile{
+    margin-top: 0;
+}
+       
+        
+    }
+
+    &__adress-desc {
+        max-width: 254px;
+        color: #101010;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+@include mobile{
+    margin-bottom: 20px;
+}
+    }
+
+    &__servisec-box {
+        @include mobile{
+            margin-bottom: 20px;
+        }
+        
+    }
+
+    &__servisev-title {
+        color: #101010;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+    &__servisec-desc {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 28px;
+        
+    }
+
+    &__link {
+        color: #000;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 19.2px */
+text-transform: capitalize;
+    }
+
+    &__touch {
+        
+        display: flex;
+        flex-direction: column;
+        @include mobile{
+            margin-bottom: 20px;
+        }
+        
+    }
+
+    &__touch-title {
+        color: #101010;
+
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 33px;
+    }
+    &__link{
+        color: #121212;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+    &__touch-desc {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        color: #121212;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+    }
+
+    &__img {
+        display: flex;
+        margin-top: 33px;
+        
+        gap: 12px;
+    }
+
+    &__money {
+        
+    }
+
+    &__money-title {
+        color: #101010;
+            
+        font-size: 18px;
+        
+        font-weight: 700;
+        
+    }
+
+    &__money-desc {
+        margin-top: 33px;
+    }
+}
+
+.year{
+    padding-left:161px ;
+    padding-bottom: 20px;
+    @include mobile{
+        margin-top: 30px;
+        text-align: center;
+
+        padding: 0;
+    }
+}
+
